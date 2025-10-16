@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advice App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="uno">
+  <nav>
+    <button onclick="Home()">Inicio</button>
+    <button onclick="ComoTeSientes()">¿Cómo te sientes?</button>
+    <button onclick="Favoritos()">Favoritos</button>
+    <button onclick="Informativa()">Informativa</button>
+  </nav>
+
+  <div id="root"></div>
+
+  <script src="conexion.js"></script>
+  <script src="home.js"></script>
+  <script src="consejo.js"></script>
+  <script src="favoritos.js"></script>
+  <script src="informativa.js"></script>
+  <script src="sentimientos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", General);
+  </script>
+</body>
+</html>
